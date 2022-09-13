@@ -26,6 +26,7 @@ console.log(props.URL)
         return(
             <div>
             <h1>{project.name}</h1>
+            // eslint-disable-next-line
             <img src={project.image} />
             <a href={project.git}>
               <button>Github</button>
