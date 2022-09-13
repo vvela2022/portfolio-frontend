@@ -14,8 +14,8 @@ const getProjectsData = async () => {
 console.log(props.URL)
   // make an initial call for the data inside a useEffect, so it only happens once on component load
   useEffect(() => {
-    // eslint-disable-next-line 
     getProjectsData()
+     // eslint-disable-next-line
   }, [])
 
   console.log(projects)
@@ -26,8 +26,8 @@ console.log(props.URL)
         return(
             <div>
             <h1>{project.name}</h1>
-            // eslint-disable-next-line
             <img src={project.image} />
+            // eslint-disable-next-line
             <a href={project.git}>
               <button>Github</button>
             </a>
