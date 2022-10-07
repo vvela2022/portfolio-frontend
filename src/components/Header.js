@@ -13,7 +13,6 @@ const Header = (props) => {
 
     return(
         <header class='header-container'>
-            <h1>My Portfolio Page</h1>
             <nav class="navbar navbar-expand bg-light">
                 <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
