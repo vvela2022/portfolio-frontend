@@ -38,7 +38,9 @@ console.log(props.URL)
         });
   };
 
-  return projects ? loaded() : <h1>Loading...</h1>;
+  return projects ? loaded() : <div class="spinner-border text-primary" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>;;
 }
 
 export default Projects;
