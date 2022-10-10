@@ -26,12 +26,12 @@ console.log(props.URL)
     let data = projects.map((project)=>{
       return (
       <div class="col projects-container">
-        <div class="card">
+        <div class="card card-container">
           <img class= " card-img-top w-100 p-3 proj-img" src={project.image} />
           <div class="card-body">
             <h4 class="card-title title">{project.name}</h4>
             <p class="card-text text">{project.description}</p>
-            <p class="card-text"> <strong>Technologies:</strong> {project.technologies}</p>
+            <p class="card-text "> <strong>Technologies:</strong> {project.technologies}</p>
             <a href={project.git} class="btn btn-primary link">
               Github
             </a>
@@ -44,11 +44,15 @@ console.log(props.URL)
         ) 
     })
         return(
+          <div class="project-header">
+            <h2 class="project-title">Featured Projects</h2>
             <div class="container text-center">
              <div class="row">
                 {data}
               </div>
-            </div>       
+            </div>  
+          </div>
+               
             
         )
         };
