@@ -24,16 +24,24 @@ console.log(props.URL)
   // define a function that will return the JSX needed once we get the data
   const loaded = () => {
     let data = projects.map((project)=>{
-      return (<div class="col projects-container" >
-        <h1>{project.name}</h1>
-      <img class="w-100 p-3" src={project.image} />
-     <a href={project.git}>
-       <button>Github</button>
-     </a>
-     <a href={project.live}>
-       <button>live site</button>
-      </a>
-        </div>) 
+      return (
+      <div class="col projects-container">
+        <div class="card">
+          <img class= " card-img-top w-100 p-3 proj-img" src={project.image} />
+          <div class="card-body">
+            <h4 class="card-title title">{project.name}</h4>
+            <p class="card-text text">{project.description}</p>
+            <p class="card-text"> <strong>Technologies:</strong> {project.technologies}</p>
+            <a href={project.git} class="btn btn-primary link">
+              Github
+            </a>
+            <a href={project.live} class="btn btn-primary link">
+              Live Site
+            </a>
+          </div>
+        </div>
+      </div>
+        ) 
     })
         return(
             <div class="container text-center">
