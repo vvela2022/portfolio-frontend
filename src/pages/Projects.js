@@ -31,7 +31,7 @@ console.log(props.URL)
           <div class="card-body">
             <h4 class="card-title title">{project.name}</h4>
             <p class="card-text text">{project.description}</p>
-            <p class="card-text text"> <strong>Technologies:</strong> {project.technologies}</p>
+            <p class="card-text text"> <strong>Technologies: </strong> {project.technologies}</p>
             <a href={project.git} class="btn btn-primary link">
               Github
             </a>

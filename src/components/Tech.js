@@ -10,7 +10,7 @@ const version = ['Git', 'GitHub']
     return(
         <div class='tech-container'>
             <div class='tech-title'>
-                <h4>Technologies</h4>
+                <h4>Technical Skills</h4>
             </div>
             <div class="sub-container">
                 <div class='front-end'>
