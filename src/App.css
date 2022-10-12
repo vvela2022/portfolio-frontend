@@ -1,15 +1,10 @@
 
 .home-container{
   text-align: center;
-  height: 100vh;
 }
 
 .about-container {
   height: 100vh;
-}
-
-.projects-container {
-  height: 120vh;
 }
 
 .project-title {
@@ -54,10 +49,6 @@
   width: 300px;
 }
 
-.card-container {
-  width: 25vw;
-}
-
 .profile-img{
   width: 350px;
   border-radius: 50%;
@@ -67,7 +58,7 @@
   height: 25vh;
 }
 .text{
-  height: 10vh;
+  height: 5vh;
 }
 
 .title {
@@ -78,4 +69,35 @@
   margin: 5px;
 }
 
+
+.tech-container {
+  margin-top: 20px;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tech-title {
+  /* border: 1px solid black; */
+  margin-top: 5px;
+}
+
+.sub-container {
+  display: flex;
+  margin-top: 20px;
+  gap: 200px;
+  /* border: 1px solid black; */
+}
+
+.front-end, .back-end, .version {
+  /* border: 1px solid black; */
+  text-align: center;
+  width: 200px;
+}
+
+.list-item {
+  padding-left: 0;
+  list-style-type: none;
+}
 

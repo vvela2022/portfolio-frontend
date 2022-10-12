@@ -24,7 +24,7 @@ const Header = (props) => {
                         <Link to='/' class="nav-link active" aria-current="page">Home</Link>
                         </li>
                         <li class="nav-item">
-                        <Link to='/about' class="nav-link active" aria-current="page">About</Link>
+                        <Link to='/about' class="nav-link active" aria-current="page">Contact</Link>
                         </li>
                         <li class="nav-item">
                         <Link to='/projects' class="nav-link active" aria-current="page">Projects</Link>

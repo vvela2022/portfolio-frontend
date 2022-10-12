@@ -1,4 +1,5 @@
 
+import Tech from '../components/Tech'
 
 const Home = (props) => {
     return (
@@ -19,7 +20,8 @@ const Home = (props) => {
                 
             </div>
             
-        </div>   
+        </div> 
+     <Tech />
     </div>
             
        
