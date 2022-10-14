@@ -7,7 +7,6 @@ import Header from './components/Header'
 import {Route, Routes} from 'react-router-dom'
 
 //IMPORT PAGES
-import About from './pages/About'
 import Home from './pages/Home'
 import Projects from './pages/Projects'
 import Tech from './components/Tech'
@@ -21,7 +20,6 @@ const URL = 'https://portfolio-vv.herokuapp.com/'
       <Routes>
         <Route exact path='/' element={<Home/>}/>
         <Route path='/projects' element={<Projects URL={URL}/>}/>
-        <Route path='/about' element={<About URL={URL} />}/>
       </Routes>
     </div>
   );

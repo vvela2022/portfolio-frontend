@@ -1,5 +1,6 @@
 
 import Tech from '../components/Tech'
+import Footer from '../components/Footer'
 
 const Home = (props) => {
     return (
@@ -17,17 +18,12 @@ const Home = (props) => {
                     <h4 class="home-headline">A Bit About Me</h4>
                     <p class="home-text">I am a software developer who is engergized by building great technology</p>
                 </div>
-                
             </div>
-            
         </div> 
      <Tech />
+     <Footer/>
     </div>
-            
-       
     )
-  
-
 }
 
 export default Home;
