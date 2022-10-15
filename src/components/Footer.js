@@ -1,4 +1,4 @@
-import resume from '../assets/files/Document.pdf'
+import resume from '../assets/files/Resume-VictoriaVela.pdf'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
