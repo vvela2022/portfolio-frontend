@@ -1,5 +1,6 @@
 import {Link} from 'react-router-dom'
 import Nav from 'react-bootstrap/Nav';
+import resume from '../assets/files/Document.pdf'
 
 const Header = (props) => {
 
@@ -18,6 +19,9 @@ const Header = (props) => {
                         </li>
                         <li class="nav-item">
                         <Link to='/projects' class="nav-link active" aria-current="page">Projects</Link>
+                        </li>
+                        <li class="nav-item"> 
+                            <a href={resume} download target='_blank' class="nav-link active" aria-current="page">Resume</a>
                         </li>
                     </ul>
                 </div>

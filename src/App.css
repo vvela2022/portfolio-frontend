@@ -125,10 +125,11 @@ a:link {
 
 a:visited {
   text-decoration: none;
+  color: black;
 }
 
 .footer-container {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   height: 200px;
   display: flex;
   flex-direction: column;
