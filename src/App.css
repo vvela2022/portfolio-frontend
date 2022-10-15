@@ -1,10 +1,18 @@
 
 .home-container{
   text-align: center;
+  /* border: 1px solid red; */
 }
 
 .about-container {
   height: 100vh;
+  /* border: 1px solid black; */
+}
+
+.welcome-container {
+  display: flex;
+  /* border: 1px solid black; */
+  gap: 1px;
 }
 
 .project-title {
@@ -43,15 +51,23 @@
   width: 20vw;
   /* margin-left: 2vw; */
   text-align: left;
+  /* border: 1px solid black; */
 }
 
-.home-text {
+/* .home-text {
   width: 300px;
+} */
+
+.profile-pic {
+  display: flex;
+  justify-content: flex-end;
 }
+
 
 .profile-img{
   width: 350px;
   border-radius: 50%;
+  /* border: 1px solid black; */
 }
 
 .proj-img {
@@ -101,3 +117,30 @@
   list-style-type: none;
 }
 
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+.footer-container {
+  border: 1px solid black;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.contact-container {
+  display: flex;
+  /* border: 1px solid black; */
+  justify-content: space-around;
+  width: 1000px;
+}
