@@ -1,17 +1,10 @@
 import {Link} from 'react-router-dom'
+import Nav from 'react-bootstrap/Nav';
 
 const Header = (props) => {
-//inline styling
-// const navStyle = {
-//     display: 'flex',
-//     justifyContent: 'space-around',
-//     border: '3px solid black',
-//     padding: '8px',
-//     width: '90%',
-//     margin: 'auto',
-// }
 
     return(
+    
         <header class='header-container'>
             <nav class="navbar navbar-expand bg-light">
                 <div class="container-fluid">
