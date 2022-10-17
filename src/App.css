@@ -67,7 +67,7 @@
 }
 
 .info-container {
-  width: 700px;
+  width: 40vw;
   /* border: 1px solid red; */
 }
 .profile-pic {
@@ -116,8 +116,10 @@
 
 .tech-title {
   /* border: 1px solid black; */
-  margin-top: 5px;
-  text-decoration: underline;
+  width: 200px;
+  border-bottom: 3px solid rgb(185,214,210);
+  color: black;
+  /* text-decoration: underline; */
 }
 
 .sub-container {
