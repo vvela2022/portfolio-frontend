@@ -32,10 +32,10 @@ console.log(props.URL)
             <h4 class="card-title title">{project.name}</h4>
             <p class="card-text text">{project.description}</p>
             <p class="card-text text"> <strong>Technologies: </strong> {project.technologies}</p>
-            <a href={project.git} class="btn btn-primary link">
+            <a href={project.git} class="hub">
               Github
             </a>
-            <a href={project.live} class="btn btn-primary link">
+            <a href={project.live} class="hub">
               Live Site
             </a>
           </div>

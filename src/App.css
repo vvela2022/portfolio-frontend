@@ -94,10 +94,16 @@
   height: 5vh;
 }
 
-.link {
-  margin: 5px;
-}
 
+.hub{
+  /* border: 1px solid black; */
+  border-radius: 20px;
+  background-color:  rgb(185,214,210);
+  width: 150px;
+  margin: 10px;
+  padding: 10px;
+
+}
 
 .tech-container {
   margin-top: 20px;
