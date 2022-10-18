@@ -32,26 +32,33 @@ console.log(props.URL)
             <h4 class="card-title title">{project.name}</h4>
             <p class="card-text text">{project.description}</p>
             <p class="card-text text"> <strong>Technologies: </strong> {project.technologies}</p>
-            <a href={project.git} class="hub">
-              Github
-            </a>
-            <a href={project.live} class="hub">
-              Live Site
-            </a>
+            <div class="button-container">
+              <a href={project.git}>
+                <p class="hub">Github</p>
+              </a>
+              <a href={project.live}>
+              <p class="hub">Live Site</p> 
+              </a>
+            </div>
+           
           </div>
         </div>
       </div>
         ) 
     })
         return(
-          <div class="project-header">
-            <h2 class="project-title">Featured Projects</h2>
+        <div class="projects-container">
+            <div class="project-header">
+              <h2 class="project-title">Featured Projects</h2>
+            </div>
             <div class="container text-center">
              <div class="row">
                 {data}
               </div>
-            </div>  
+              </div>  
+         
           </div>
+        
                
             
         )
