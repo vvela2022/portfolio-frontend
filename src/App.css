@@ -210,14 +210,14 @@ a:hover {
 
 @media screen and (max-width: 650px) {
   .info-container {
-    width: 50vw;
+    width: 100vw;
     /* border: 1px solid black; */
     font-size: 14px;
   }
   
   .profile-img{
-    width: 150px;
-    height:fit-content;
+    width: 0px;
+    /* height:fit-content; */
     border-radius: 50%;
   }
 
