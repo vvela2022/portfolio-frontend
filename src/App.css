@@ -136,7 +136,7 @@
   align-items: center;
   justify-content: center;
   margin-bottom: 50px;
-  height: 400px;
+  /* height: 400px; */
   /* background-color: rgb(229,232,223); */
 
 }
@@ -183,7 +183,7 @@ a:hover {
 
 .footer-container {
   /* border: 1px solid black; */
-  height: 200px;
+  /* height: 200px; */
   display: flex;
   flex-direction: column;
   font-size: 16px;
@@ -228,7 +228,6 @@ a:hover {
     display: flex;
     flex-direction: column;
     border: 1px solid black;
-    height: 400px;
   }
 
   .contact-container {
