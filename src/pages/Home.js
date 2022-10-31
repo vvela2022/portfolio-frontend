@@ -5,7 +5,6 @@ import Footer from '../components/Footer'
 const Home = (props) => {
     return (
     <div class="home-container">
-        
         <div class="information">
             <div class="welcome-container">
                 <div class="hello">

@@ -207,7 +207,8 @@ a:hover {
 @media screen and (max-width: 650px) {
   .info-container {
     /* border: 1px solid black; */
-    font-size: 1em;
+    font-size: 4vw;
+    width: 60vw;
   }
   
   .profile-img{
