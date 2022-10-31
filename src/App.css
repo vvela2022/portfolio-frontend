@@ -205,6 +205,10 @@ a:hover {
 
 
 @media screen and (max-width: 650px) {
+  
+  .hello {
+    margin-top: 1px;
+  }
   .info-container {
     /* border: 1px solid black; */
     font-size: 4vw;
@@ -213,6 +217,7 @@ a:hover {
   
   .profile-img{
     width: 0px;
+    height: 0px;
   }
 
   .information {
@@ -238,6 +243,7 @@ a:hover {
     display: flex;
     align-items: center;
     gap: 0px;
+    
   }
   
 }
