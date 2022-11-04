@@ -17,7 +17,7 @@ const Home = (props) => {
                     </div>
                     <div class="info-container">
                         <h4 class="home-headline">A Bit About Me</h4>
-                        <p class="home-text">I am a software engineer with a 9 year background in consumer goods sales who is energized by collaborating with team members to solve complex problems. My passion for problem-solving and continued learning led me to software engineering where I am able to utilize my creativity and preivous experience to build great software. I have a strong passion for improving user experience and am energized by delivering technology based solutions. In my spare-time, I enjoy spending time in nature, reading, and playing board games with my family. </p>
+                        <p class="home-text">I am a software engineer with a 9 year background in consumer goods sales who is energized by collaborating with team members to solve complex problems. My passion for problem-solving and continued learning led me to software engineering where I am able to utilize my creativity and preivous experience to build great software. I have a strong passion for improving user experience and am energized by delivering technology based solutions. In my spare-time I enjoy spending time in nature, reading, and playing board games with my family. </p>
                     </div>
 
                 </div>
