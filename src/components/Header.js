@@ -1,6 +1,6 @@
 import {Link} from 'react-router-dom'
 import Nav from 'react-bootstrap/Nav';
-import resume from '../assets/files/Victoria_VelaResume'
+import resume from '..assets/files/VictoriaResume.pdf'
 const Header = (props) => {
 
     return(
